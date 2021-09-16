@@ -12,6 +12,10 @@ section div:last-child {
   background-color: #f2f2f2;
 }
 
+h1 {
+  text-align: center;
+}
+
 section {
   display: flex;
   border: 1px solid red;
@@ -37,11 +41,6 @@ img {
 
 section a {
   background-color: #444;
-}
-
-header h1 {
-  align-self: center;
-  padding: 1rem;
 }
 
 body {
