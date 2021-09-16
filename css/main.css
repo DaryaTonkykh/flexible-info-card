@@ -1,12 +1,13 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
-  font-family:sans-serif;
+  font-family: "Open Sans";
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
 section div:last-child {
   background-color: #f2f2f2;
 
@@ -30,7 +31,17 @@ img {
   width: 5em;
 }
 
+a:hover {
+  background-color: #444;
+  padding: .5rem;
+}
+
 header h1 {
   display: flex;
   align-self: center;
+}
+
+body {
+  display: flex;
+  margin: 0;
 }
