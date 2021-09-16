@@ -24,6 +24,9 @@ nav ul {
   display: flex;
 }
 
-
+header h1 {
+  display: flex;
+  align-self: center;
+}
 
 5em for images
