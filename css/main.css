@@ -9,6 +9,7 @@ html {
 }
 
 section div:last-child {
+  width: 25%;
   background-color: #f2f2f2;
 }
 
@@ -23,6 +24,7 @@ section {
   display: flex;
   border: 1px solid red;
   justify-content: space-between;
+  justify-content: center;
   align-items: stretch;
   margin: 1.5rem;
 }
