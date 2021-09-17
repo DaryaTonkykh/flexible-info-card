@@ -29,10 +29,6 @@ section {
   margin: 1.5rem;
 }
 
-section h2 {
-  display: flex;
-}
-
 nav ul {
   list-style-type: none;
   padding: 0;
@@ -47,9 +43,22 @@ img {
 section a {
   background-color: #444;
   color: #f2f2f2;
+  padding: .5rem;
 }
 
 body {
-  display: flex;
+  background-color: #ccc;
   margin: 0;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+}
+
+ul > li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.5rem;
 }
