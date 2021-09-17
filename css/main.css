@@ -17,13 +17,6 @@ hgroup {
   display: flex;
 }
 
-h1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0;
-}
-
 section {
   display: flex;
   border: 1px solid red;
@@ -57,7 +50,9 @@ body {
 
 h2 {
   display: flex;
+  align-items: center;
   justify-content: center;
+  margin: 0;
 }
 
 ul > li {
